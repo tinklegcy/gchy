@@ -51,27 +51,27 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        {
-          label: '博客',
-          position: 'right',
-          to: 'blog',
-        },
+        // {
+        //   label: '博客',
+        //   position: 'right',
+        //   to: 'blog',
+        // },
         {
           label: '项目',
           position: 'right',
           to: 'project',
         },
-        {
-          label: '更多',
-          position: 'right',
-          items: [
-            { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
-            { label: '资源', to: 'resources' },
-            { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
-          ],
-        },
+        // {
+        //   label: '更多',
+        //   position: 'right',
+        //   items: [
+        //     { label: '归档', to: 'blog/archive' },
+        //     { label: '笔记', to: 'docs/skill' },
+        //     { label: '资源', to: 'resources' },
+        //     { label: '友链', to: 'friends' },
+        //     { label: '工具推荐', to: 'docs/tools' },
+        //   ],
+        // },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -84,23 +84,23 @@ const config: Config = {
         {
           title: '学习',
           items: [
-            { label: '博客', to: 'blog' },
-            { label: '归档', to: 'blog/archive' },
+            // { label: '博客', to: 'blog' },
+            // { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
             { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
-        {
-          title: '社交媒体',
-          items: [
-            { label: '关于我', to: '/about' },
-            { label: 'GitHub', href: social.github.href },
-            { label: 'Twitter', href: social.twitter.href },
-            { label: '掘金', href: social.juejin.href },
-            { label: 'Discord', href: social.discord.href },
-          ],
-        },
+        // {
+        //   title: '社交媒体',
+        //   items: [
+        //     { label: '关于我', to: '/about' },
+        //     { label: 'GitHub', href: social.github.href },
+        //     { label: 'Twitter', href: social.twitter.href },
+        //     { label: '掘金', href: social.juejin.href },
+        //     { label: 'Discord', href: social.discord.href },
+        //   ],
+        // },
         {
           title: '更多',
           items: [
@@ -116,13 +116,13 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
-          /\d+/,
-        )?.[0]}" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT Piemon Built with Docusaurus.</p>
-        `,
+      // copyright: `
+      //   <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
+      //   <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
+      //     /\d+/,
+      //   )?.[0]}" >${beian1}</a></p>
+      //   <p>Copyright © 2020 - PRESENT Piemon Built with Docusaurus.</p>
+      //   `,
     },
     algolia: {
       appId: 'GV6YN1ODMO',
