@@ -8,7 +8,7 @@ const beian = '闽ICP备2020017848号-2'
 const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
-  title: '愧怍的小站',
+  title: 'Piemon的小站',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config: Config = {
   customFields: {
     bio: '道阻且长，行则将至',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '是一个由Piemon创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
     // announcementBar: {
@@ -27,7 +27,7 @@ const config: Config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍, kuizuo',
+        content: 'Piemon, kuizuo',
       },
       {
         name: 'keywords',
@@ -45,7 +45,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: 'Piemon',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -121,7 +121,7 @@ const config: Config = {
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
           /\d+/,
         )?.[0]}" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>
+        <p>Copyright © 2020 - PRESENT Piemon Built with Docusaurus.</p>
         `,
     },
     algolia: {
@@ -233,8 +233,8 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Piemon',
+          copyright: `Copyright © ${new Date().getFullYear()} Piemon Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
@@ -244,7 +244,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: 'Piemon的个人博客',
       },
     },
   ],
