@@ -9,10 +9,10 @@ const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
   title: 'Piemon的小站',
-  url: 'https://kuizuo.cn',
+  url: 'https://piemon.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'piemon',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
@@ -27,7 +27,7 @@ const config: Config = {
     metadata: [
       {
         name: 'keywords',
-        content: 'Piemon, kuizuo',
+        content: 'Piemon, piemon',
       },
       {
         name: 'keywords',
@@ -127,7 +127,7 @@ const config: Config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      indexName: 'piemon',
     },
     prism: {
       theme: themes.oneLight,
@@ -157,7 +157,7 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
+      repo: 'piemon/blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
